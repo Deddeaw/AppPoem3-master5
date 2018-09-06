@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deddeaw.apppoem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityHistory" />
+        <activity android:name=".ActivityHistoryBoat" />
+        <activity android:name=".Activity_Poem" />
+        <activity android:name=".Activity_Detail2" />
+        <activity android:name=".Activity_Detail3" />
+        <activity android:name=".Activity_boat1" />
+        <activity android:name=".Activity_VR" />
+        <activity android:name=".Activity_MenuBoat" />
+        <activity android:name=".Activity_History_Boat2" />
+        <activity android:name=".Activity_Detail4" />
+        <activity android:name=".ActivityVedio" />
+        <activity android:name=".Activity_360"></activity>
+    </application>
+
+</manifest>

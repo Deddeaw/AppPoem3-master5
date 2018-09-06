@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg7"
+    tools:context=".Activity_Poem">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="@dimen/topicW1"
+        android:layout_height="@dimen/topicH1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/top7"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBackmain"
+        android:layout_width="96dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/btn"
+        android:onClick="backtomain"
+        android:text="ย้อนกลับ"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="103dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn"
+        android:onClick="clicktodetail2"
+        android:text="ถอดความ"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnBackmain"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/btn"
+        android:onClick="clicktolis"
+        android:text="ฟังบทประพันธ์"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/button3" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="343dp"
+        android:layout_height="399dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="โคลง"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          ปางเสด็จประเวศด้าว		          ชลาลัย"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทรงรัตนพิมานชัย	                           กิ่งแก้ว"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="พรั่งพร้อมพวกพลไกร		                  แหนแห่"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เรือกระบวนต้นแพร้ว		                    เพริศพริ้งพายทอง "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="กาพย์"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          พระเสด็จโดยแดนชล		        ทรงเรือต้นงามเฉิดฉาย"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กิ่งแก้วแพร้วพรรณราย		              พายอ่อนหยับจับงามงอน"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          นาวาแน่นเป็นขนัด		           ล้วนรูปสัตว์แสนยากร"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เรือริ้วทิวธงสลอน		                      สาครลั่นครั่นครื้นฟอง"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          เรือครุฑยุดนาคหิ้ว		          ลิ่วลอยมาพาผันผยอง"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="พลพายกรายพายทอง		                 ร้องโห่เห่โอ้เห่มา"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         สรมุขมุขสี่ด้าน		                เพียงพิมานผ่านเมฆา"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ม่านกรองทองรจนา		                  หลังคาแดงแย่งมังกร"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         สมรรถชัยไกรกราบแก้ว		     แสงแวววับจับสาคร"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เรียบเรียงเคียงคู่จร		                     ดั่งร่อนฟ้ามาแดนดิน"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         สุวรรณหงส์ทรงพู่ห้อย		       งามชดช้อยลอยหลังสินธุ์"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เพียงหงส์ทรงพรหมมินทร์	            	ลินลาศเลื่อนเตือนตาชม"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         เรือชัยไวว่องวิ่ง		              รวดเร็วจริงยิ่งอย่างลม"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เสียงเส้าเร้าระดม	                      	ห่มท้ายเยิ่นเดินคู่กัน"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="         คชสีห์ทีผาดเผ่น		             ดูดังเป็นเห็นขบขัน"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ราชสีห์ที่ยืนยัน		                       คั่นสองคู่ดูยิ่งยง"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="        เรือม้าหน้ามุ่งน้ำ		              แล่นเฉื่อยฉ่ำลำระหง"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          เรือสิงห์วิ่งเผ่นโผน	         	โจนตามคลื่นฝืนฝ่าฟอง"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เพียงม้าอาชาทรง		                      องค์พระพายผายผันผยอง"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ดูยิ่งสิงห์ลำพอง		                       เป็นแถวท่องล่องตามกัน"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          นาคาหน้าดังเป็น	     	       ดูเขม้นเห็นขบขัน"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มังกรถอนพายพัน		                    ทันแข่งหน้าวาสุกรี"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          เลียงผาง่าเท้าโผน	           	เพียงโจนไปในวารี"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="นาวาหน้าอินทรี		                     มีปีกเหมือนเลื่อนลอยโพยม"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          ดนตรีมี่อึงอล	             	ก้องกาหลพลแห่โหม"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="โห่ฮึกครึกครื้นโครม	                 	โสมนัสชื่นรื่นเริงพล"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          กรีธาหมู่นาเวศ		              จากนคเรศโดยสาชล"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เหิมหื่นชื่นกระมล		                   ยลมัจฉาสารพันมี"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
