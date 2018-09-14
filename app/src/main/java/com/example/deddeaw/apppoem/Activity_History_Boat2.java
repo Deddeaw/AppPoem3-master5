@@ -11,8 +11,8 @@ public class Activity_History_Boat2 extends AppCompatActivity {
     ListView listView2;
     private String[] titleStrings, detailStrings;
     //.ใส่รูปภาพเรือแล้วจะรันเอง
-    private int[] ints = new int[]{R.drawable.b1,R.drawable.b2,R.drawable.b3,
-            R.drawable.b4,R.drawable.b5};
+    private int[] ints = new int[]{R.drawable.boat1type2,R.drawable.boat2type2,R.drawable.boat3type2,
+            R.drawable.boat4type2};
 
 
     @Override
