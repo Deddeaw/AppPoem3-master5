@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgg"
+    android:background="@drawable/mainbg"
     tools:context=".Activity_History_Boat2">
 
     <EditText
@@ -33,7 +33,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/bg7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,19 +54,24 @@
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="@dimen/btnbackW1"
-        android:layout_height="@dimen/btnbackH1"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/buttonback"
         android:onClick="clickMenuBoat2"
+        android:text="ย้อนกลับ"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.687" />
 
     <TextView
         android:id="@+id/textView51"

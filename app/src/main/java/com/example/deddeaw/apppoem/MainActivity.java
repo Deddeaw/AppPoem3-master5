@@ -34,7 +34,7 @@ import android.view.View;
         }
 
         public void clicktoVR(View view) {
-            Intent gotoVR = new Intent(MainActivity.this, Activity_VR.class);
+            Intent gotoVR = new Intent(MainActivity.this,Activity_VR.class);
             startActivity(gotoVR);
         }
     }

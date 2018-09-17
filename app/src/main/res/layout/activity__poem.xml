@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg7"
-    tools:context=".Activity_Poem">
+    android:background="@drawable/mainbg">
 
     <TextView
         android:id="@+id/textView8"
@@ -26,12 +25,12 @@
 
     <Button
         android:id="@+id/btnBackmain"
-        android:layout_width="96dp"
+        android:layout_width="115dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginStart="28dp"
-        android:background="@drawable/btn"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonback"
         android:onClick="backtomain"
         android:text="ย้อนกลับ"
         android:textAllCaps="false"
@@ -39,16 +38,19 @@
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4"
+        app:layout_constraintVertical_bias="0.555" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="103dp"
+        android:layout_width="115dp"
         android:layout_height="43dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/btn"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttonback"
         android:onClick="clicktodetail2"
         android:text="ถอดความ"
         android:textColor="@android:color/background_dark"
@@ -56,26 +58,27 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnBackmain"
         app:layout_constraintTop_toBottomOf="@+id/scrollView4"
-        app:layout_constraintVertical_bias="0.157" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="115dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="24dp"
+        android:layout_marginRight="16dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonback"
         android:onClick="clicktolis"
         android:text="ฟังบทประพันธ์"
         android:textColor="@android:color/background_dark"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toEndOf="@+id/button3" />
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4"
+        app:layout_constraintVertical_bias="0.555" />
 
     <ScrollView
         android:id="@+id/scrollView4"
@@ -85,8 +88,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.68"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
@@ -111,14 +115,14 @@
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="          ปางเสด็จประเวศด้าว		          ชลาลัย"
+                android:text="               ปางเสด็จประเวศด้าว               ชลาลัย"
                 android:textColor="@android:color/background_dark" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ทรงรัตนพิมานชัย	                           กิ่งแก้ว"
+                android:text="ทรงรัตนพิมานชัย                                    กิ่งแก้ว"
                 android:textColor="@android:color/background_dark" />
 
             <TextView
@@ -267,17 +271,17 @@
                 android:textColor="@android:color/background_dark" />
 
             <TextView
-                android:id="@+id/textView37"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="          เรือสิงห์วิ่งเผ่นโผน	         	โจนตามคลื่นฝืนฝ่าฟอง"
-                android:textColor="@android:color/background_dark" />
-
-            <TextView
                 android:id="@+id/textView36"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="เพียงม้าอาชาทรง		                      องค์พระพายผายผันผยอง"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          เรือสิงห์วิ่งเผ่นโผน	         	โจนตามคลื่นฝืนฝ่าฟอง"
                 android:textColor="@android:color/background_dark" />
 
             <TextView
@@ -342,6 +346,11 @@
                 android:layout_height="wrap_content"
                 android:text="เหิมหื่นชื่นกระมล		                   ยลมัจฉาสารพันมี"
                 android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>

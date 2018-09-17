@@ -1,8 +1,10 @@
 package com.example.deddeaw.apppoem;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.VideoView;
@@ -27,5 +29,10 @@ public class ActivityVedio extends AppCompatActivity {
         myVideoV.requestFocus();
         myVideoV.start();
 
+    }
+
+    public void clicktopoem(View view) {
+        Intent gotopoem = new Intent(ActivityVedio.this, Activity_Poem.class);
+        startActivity(gotopoem);
     }
 }

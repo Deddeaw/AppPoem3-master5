@@ -35,7 +35,8 @@ public class Activity_boat1 extends AppCompatActivity {
         }//end onCreate Method
 
 
-
-
-
+    public void clicktoLisview(View view) {
+        Intent backtoLisview = new Intent(Activity_boat1.this, Activity_History_Boat2.class);
+        startActivity(backtoLisview);
+    }
 }//end Class

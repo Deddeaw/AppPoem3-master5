@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg7"
+    android:background="@drawable/mainbg"
     tools:context=".ActivityVedio">
 
     <TextView
@@ -48,10 +48,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/btn"
+        android:background="@drawable/buttonback"
+        android:onClick="clicktopoem"
         android:text="ย้อนกลับ"
+        android:textAllCaps="false"
         android:textColor="@android:color/background_dark"
-        android:textSize="14sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

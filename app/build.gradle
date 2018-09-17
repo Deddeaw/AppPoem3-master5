@@ -26,8 +26,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    //add libary
 
-    api 'com.gjiazhe:PanoramaImageView:1.0'
 
 }

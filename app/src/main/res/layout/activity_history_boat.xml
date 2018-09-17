@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgg"
+    android:background="@drawable/mainbg"
     tools:context=".ActivityHistoryBoat">
 
     <TextView
@@ -50,7 +50,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/bg7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2">
@@ -71,16 +70,18 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="160dp"
-        android:layout_height="55dp"
+        android:layout_width="145dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/buttonback"
         android:onClick="clicktomain"
+        android:text="ย้อนกลับ"
+        android:textAllCaps="false"
         android:textColor="@android:color/background_dark"
-        android:textSize="14sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
