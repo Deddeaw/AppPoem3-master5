@@ -27,6 +27,8 @@
         <activity android:name=".Activity_History_Boat2" />
         <activity android:name=".Activity_Detail4" />
         <activity android:name=".ActivityVedio" />
+        <activity android:name=".Activity_Search" />
+        <activity android:name=".page2Activity" />
     </application>
 
 </manifest>

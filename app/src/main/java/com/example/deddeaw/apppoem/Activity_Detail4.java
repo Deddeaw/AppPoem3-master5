@@ -17,7 +17,6 @@ public class Activity_Detail4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity__detail4);
 
         //Initial View ผูกตัวแปรบน JAVA กับ XML
         titleTextView = findViewById(R.id.textView52);
@@ -29,6 +28,7 @@ public class Activity_Detail4 extends AppCompatActivity {
         detailTextView.setText(getIntent().getStringExtra("detailboat2"));
         //รูปที่จะใส่
         signImageView.setImageResource(getIntent().getIntExtra("Image",R.drawable.a));
+
 
 
     }//end onCreate Method
