@@ -29,6 +29,9 @@
         <activity android:name=".ActivityVedio" />
         <activity android:name=".Activity_Search" />
         <activity android:name=".page2Activity" />
+        <activity android:name=".Activity_list_view3" />
+        <activity android:name=".Activity_Vr2" />
+        <activity android:name=".Activity_StartApp"></activity>
     </application>
 
 </manifest>

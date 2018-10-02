@@ -18,10 +18,10 @@ import android.view.View;
             startActivity(gotoHisA);
         }
         //
-        public void clicktoBoat(View view) {
-            Intent gotoHisBoat = new Intent(MainActivity.this, ActivityHistoryBoat.class);
-            startActivity(gotoHisBoat);
-        }
+        //public void clicktoBoat(View view) {
+        //    Intent gotoHisBoat = new Intent(MainActivity.this, ActivityHistoryBoat.class);
+        //    startActivity(gotoHisBoat);
+        //}
         // หน้าบทประพันธ์
         public void gotodetailpoem(View view) {
             Intent gotodetailPoem = new Intent(MainActivity.this, Activity_Poem.class);
@@ -32,14 +32,16 @@ import android.view.View;
             Intent gotohisboat = new Intent(MainActivity.this, Activity_MenuBoat.class);
             startActivity(gotohisboat);
         }
-        // หน้า VR
-        public void clicktoVR(View view) {
-            Intent gotoVR = new Intent(MainActivity.this,Activity_VR.class);
-            startActivity(gotoVR);
-        }
+
+
         // ทดลอง ค้นหา
         public void clicktoSearch(View view) {
             Intent gotoSearch = new Intent(MainActivity.this, Activity_Search.class);
             startActivity(gotoSearch);
+        }
+        //หน้า VR
+        public void clickVR(View view) {
+            Intent gotoVR = new Intent(MainActivity.this, Activity_Vr2.class);
+            startActivity(gotoVR);
         }
     }

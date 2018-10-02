@@ -184,7 +184,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="8dp"
-                android:background="@drawable/boat1type1" />
+                android:background="@drawable/boat1type1"
+                android:onClick="clickView1" />
 
             <TextView
                 android:id="@+id/textView64"
@@ -265,11 +266,6 @@
                 android:layout_height="200dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/boat8type1" />
-
-            <TextView
-                android:id="@+id/textView63"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>

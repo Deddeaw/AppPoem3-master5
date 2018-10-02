@@ -5,14 +5,13 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 
-public class Activity_VR extends AppCompatActivity {
+public class Activity_Vr2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity__vr);
+        setContentView(R.layout.activity__vr2);
     }
 
     public void clickView1(View view) {
@@ -20,5 +19,4 @@ public class Activity_VR extends AppCompatActivity {
         view1.setData(Uri.parse("https://www.facebook.com/photo.php?fbid=1832523806831906&set=a.568735453210754&type=3&theater"));
         startActivity(view1);
     }
-
 }
